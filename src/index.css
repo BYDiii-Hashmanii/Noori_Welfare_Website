@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  html, body {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    max-width: 100vw;
+    background-color: #F7F8F4;
+    color: #173B52;
+  }
+}
+
+/* Exact Brand Color Palette */
+:root {
+  --nwf-primary: #168A50;
+  --nwf-primary-hover: #127343;
+  --nwf-yellow: #F4D943;
+  --nwf-navy: #173B52;
+  --nwf-offwhite: #F7F8F4;
+}
+
+/* Utilities for smooth image loading and clean cards */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

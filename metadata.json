@@ -1,0 +1,8 @@
+{
+  "name": "Noori Welfare Foundation",
+  "description": "Official portal of Noori Welfare Foundation (NWF) - Supporting families, feeding the hungry, and bringing healthcare and education to communities in need across Bagh, AJK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
